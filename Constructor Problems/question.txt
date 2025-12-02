@@ -1,0 +1,15 @@
+1. Student Details Program (Basic OOP Starter)
+Student ka name, age, marks store karo
+Method: display() jo output dikhaye
+
+2.Car Object Program
+Features:
+brand
+speed
+accelerate()
+brake()
+
+3.Product Card Object (E-commerce basic)
+Features:
+Product name
+PriceDiscount

@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: gray;
+}
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+}
+.box h1{
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid black;
+}
+.box h2{
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid black;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.form input{
+    height: 30px;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 5px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.buttons #deposit, .buttons #withdraw{
+    align-items: center;
+    width: 26%;
+    height: 40px;
+    font-size: 16px;
+    background-color: rgb(14, 13, 13);
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.buttons #deposit:hover, .buttons #withdraw:hover{
+    background-color: darkgray;
+    color: black;
+}
