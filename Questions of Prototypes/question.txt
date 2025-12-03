@@ -1,0 +1,24 @@
+⭐ PART 1 — THIS keyword (Basic Practice Questions)
+Q1.Ek object banao jisme name ho aur ek function ho jo this.name print kare.
+Us function ko object ke andar call karo — output kya hoga?
+
+Q2.Ek function showAge() banao jo this.age print kare.
+Do alag objects banao jinke andar age ho.
+showAge ko dono objects ke liye kaam karvao.
+
+Q3.Ek function showDetails() banao jo this.name aur this.city print kare.
+Do objects banao:
+
+objA: { name: "Aman", city: "Delhi" }
+
+objB: { name: "Kavya", city: "Mumbai" }
+
+✔ Ek hi function use karke dono ki details print karo using:
+call()
+apply() 
+
+Q4.Arrow function ke andar this ka behavior test karo:
+Ek object banao jisme arrow function ho aur this.name print kare.
+Output kya aata hai?
+
+Q5.Global this aur object ke this ka difference batao with example code.
